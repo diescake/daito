@@ -4,26 +4,15 @@
     <meta charset="utf-8" />
     <title>daito</title>
     <script src="lib/aframe-master.min.js"></script>
-    <script src="js/event.js"></script>
   </head>
   <body>
     <a-scene vr-mode-ui="enabled: true">
       <!-- Settings -->
-      <a-camera position="0 1 8" cursor-visible="true" cursor-scale="2" cursor-color="#0095DD" cursor-opacity="0.5"> </a-camera>
+      <a-camera position="0 6 8" cursor-visible="true" cursor-scale="2" cursor-color="#0095DD" cursor-opacity="0.5"> </a-camera>
       <a-entity laser-controls="hand: right" oculus-go-controls="hand:right; armModel:true;"></a-entity>
       <a-entity oculus-go-controls="hand: right"></a-entity>
-
-      <!-- Walls -->
-      <a-plane src="image/wall.jpg" position="0 2 -4" rotation="0 0 0" width="8" height="8"></a-plane>
-
-      <!-- Ceils -->
-      <a-plane src="image/ceil.jpg" position="0 6 0" rotation="90 0 0" width="8" height="8"></a-plane>
-
-      <!-- Floors -->
-      <a-plane src="image/floor.jpg" position="0 -2 0" rotation="-90 0 0" width="8" height="8"></a-plane>
-
-      <!-- Backgrounds -->
-      <a-sky src="image/bg.jpg"></a-sky>
     </a-scene>
+    <script src="js/map.js"></script>
+    <script src="js/event.js"></script>
   </body>
 </html>
