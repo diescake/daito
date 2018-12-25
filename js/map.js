@@ -1,8 +1,9 @@
 (() => {
   const image = {
-    wall: '../image/wall.jpg',
-    floor: '../image/floor.jpg',
-    ceil: '../image/ceil.jpg',
+    // wall: '../image/plaster.png',
+    wall: '../image/wall.png',
+    carpet: '../image/carpet.jpg',
+    ceil: '../image/ceiling_tile.jpg',
   };
 
   const daito = {
@@ -16,6 +17,7 @@
   const createPlane = (src, positions, rotations, width, height) => {
     const plane = document.createElement('a-plane');
     plane.setAttribute('src', src);
+    plane.setAttribute('color', 'white');
     plane.setAttribute('position', positions.join(' '));
     plane.setAttribute('rotation', rotations.join(' '));
     plane.setAttribute('width', width);
@@ -66,7 +68,7 @@
 
     for (let x = 0; x < mapData.x; x++) {
       for (let z = 0; z < mapData.z; z++) {
-        floors.push(createFloor(image.floor, x, z));
+        floors.push(createFloor(image.carpet, x, z));
         ceils.push(createCeil(image.ceil, x, z));
       }
     }
