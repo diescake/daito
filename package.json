@@ -1,8 +1,9 @@
 {
+  "private": true,
   "name": "daito",
   "description": "VRize Daito building",
   "version": "0.1.0",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "budo --live --verbose --port 3210 --open",
     "a-frame-watch": "aframe-watcher ./index.html"
@@ -10,13 +11,5 @@
   "devDependencies": {
     "aframe-watcher": "^1.1.1",
     "budo": "^7.0.0"
-  },
-  "keywords": [
-    "aframe",
-    "aframe-example",
-    "aframe-boilerplate",
-    "aframe-scene",
-    "webvr",
-    "vr"
-  ]
+  }
 }
