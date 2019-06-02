@@ -2,6 +2,10 @@
 
 VRize our daito building with [A-Frame](https://aframe.io).
 
+## DEMO
+
+* https://diescake.github.io/daito/
+
 ## Installation
 
 ```sh
