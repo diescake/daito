@@ -1,17 +1,17 @@
 (() => {
   const image = {
     // wall: '../image/plaster.png',
-    wall: '../image/wall.png',
-    carpet: '../image/carpet.jpg',
-    ceil: '../image/ceiling_tile.jpg',
+    wall: 'image/wall.png',
+    carpet: 'image/carpet.jpg',
+    ceil: 'image/ceiling_tile.jpg'
   };
 
   const daito = {
     D5F: {
       x: 7,
       y: 1,
-      z: 18,
-    },
+      z: 18
+    }
   };
 
   const createPlane = (src, positions, rotations, width, height) => {
