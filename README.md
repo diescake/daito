@@ -1,6 +1,6 @@
 # daito
 
-VRize our daito building with [A-Frame](https://aframe.io).
+Try to VRize the mother daito building with [A-Frame](https://aframe.io).
 
 ## DEMO
 
